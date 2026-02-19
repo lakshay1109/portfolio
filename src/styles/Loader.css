@@ -1,0 +1,67 @@
+/* Loader Base */
+.loader {
+  position: fixed;
+  inset: 0;
+  background: #141414;
+  z-index: 9999;
+}
+
+/* Center Text */
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Rotating Words */
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0;
+}
+
+.welcome-text h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
+}
+
+/* Curtain Curve */
+.loading-round {
+  position: absolute;
+  top: 99%;
+  width: 100vw;
+  height: 20vh;
+  overflow: hidden;
+}
+
+.curve {
+  position: absolute;
+  height: 200%;
+  width: 150%;
+  background: #0a0a0a;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+@media (max-width: 768px) {
+  .welcome-text h2 {
+    font-size: 1.8rem;
+  }
+}
