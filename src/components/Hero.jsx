@@ -67,16 +67,16 @@ export default function Hero() {
         {/* Internships */}
         <a
         href="/Lakshay_Varshney_Resume_3.pdf" target="_blank" rel="noopener noreferrer" title='Lakshay_Resume'
-        className="font-alfa text-3xl sm:text-5xl">
+        className="font-alfa text-3xl sm:text-4xl">
           INTERNSHIPS
         </a>
-        <p className="font-anonymous text-lg sm:text-3xl">
+        <p className="font-anonymous text-lg sm:text-2xl">
           • FULL STACK INTERN @<i>InfinitoComics</i>
         </p>
 
         {/* Skills */}
         <div className="mt-8">
-          <p className="font-alfa text-3xl sm:text-5xl">
+          <p className="font-alfa text-3xl sm:text-4xl">
             SKILLS
           </p>
           <p className="font-anonymous text-base sm:text-2xl leading-relaxed opacity-80">
@@ -95,24 +95,26 @@ export default function Hero() {
       <div className="text-center lg:text-right">
 
         {/* Quote */}
-        <p className="font-abril text-xl sm:text-2xl 
+        <p className="font-abril text-xl sm:text-2xl text-blue-200
           max-w-xl mb-12 opacity-90">
-          <i> “When it feels scary to jump, that is exactly when you jump. Otherwise you end up staying in the same place your whole life.”</i>
+          <i>Founder @ The BVCOE Coder's Cup </i> <br/>
+          <i>Technical Head @ MLSAC-BVP</i><br/>
+          <i>Sponsorship Head @ Horizon-BVP</i><br/>
         </p>
 
         {/* Projects */}
-        <p className="font-alfa text-3xl sm:text-5xl ">
+        <p className="font-alfa text-3xl sm:text-4xl ">
           PROJECTS
         </p>
         <a 
         href="https://github.com/Vatsal-Garg-iiitd/fasal-maitri" target="_blank" rel="noopener noreferrer" title="Fasal Maitri"
-        className="flex flex-col text-2xl sm:text-3xl">
+        className="flex flex-col text-2xl sm:text-2xl">
           FASAL MAITRI – Crop Disease Detection App<br/>
           <i className='text-xl font-anonymous text-blue-300'>• MERN • Flask • AI Langchain </i>
         </a>
         <a 
         href="https://github.com/lakshay1109/Ride-Booking-App" target="_blank" rel="noopener noreferrer" title="Ride Booking App"
-        className="flex flex-col text-2xl sm:text-3xl mt-6">
+        className="flex flex-col text-2xl sm:text-2xl mt-6">
           Ride Booking App <br/>
           <i className='text-xl font-anonymous text-blue-300'>• MERN • MapboxGL.js </i>
         </a>

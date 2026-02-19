@@ -8,7 +8,7 @@ export default function BackgroundMusic() {
   useEffect(() => {
     // 1. Initial configuration
     if (audioRef.current) {
-      audioRef.current.volume = 0.10;
+      audioRef.current.volume = 0.05;
       audioRef.current.loop = true;
     }
 
