@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Left */}
       <div className="text-center lg:text-left">
         <a 
-        href="/Lakshay_Varshney_Resume_3.pdf" target="_blank" rel="noopener noreferrer" title='Lakshay_Resume'
+        href="/Lakshay_Varshney_Resume_5.pdf" target="_blank" rel="noopener noreferrer" title='Lakshay_Resume'
         className="font-abril 
           text-4xl sm:text-5xl lg:text-6xl">
           LAKSHAY VARSHNEY
@@ -66,7 +66,7 @@ export default function Hero() {
 
         {/* Internships */}
         <a
-        href="/Lakshay_Varshney_Resume_3.pdf" target="_blank" rel="noopener noreferrer" title='Lakshay_Resume'
+        href="/Lakshay_Varshney_Resume_5.pdf" target="_blank" rel="noopener noreferrer" title='Lakshay_Resume'
         className="font-alfa text-3xl sm:text-4xl">
           INTERNSHIPS
         </a>
@@ -99,7 +99,7 @@ export default function Hero() {
           max-w-xl mb-12 opacity-90">
           <i>Founder @ The BVCOE Coder's Cup </i> <br/>
           <i>Technical Head @ MLSAC-BVP</i><br/>
-          <i>Sponsorship Head @ Horizon-BVP</i><br/>
+          <i>Ex-Sponsorship Head @ Horizon-BVP</i><br/>
         </p>
 
         {/* Projects */}

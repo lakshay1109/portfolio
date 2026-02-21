@@ -30,7 +30,7 @@ export default function Header() {
       <div className="flex flex-wrap gap-3 sm:gap-4 
         text-xl sm:text-2xl md:text-3xl justify-end">
         <a 
-        href="/Lakshay_Varshney_Resume_3.pdf" 
+        href="/Lakshay_Varshney_Resume_5.pdf" 
         target="_blank" 
         rel="noopener noreferrer" 
         title="Resume"> 
